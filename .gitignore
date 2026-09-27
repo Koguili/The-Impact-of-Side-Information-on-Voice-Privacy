@@ -1,0 +1,34 @@
+# Large embeddings / caches
+*.h5
+*.joblib
+xvector_results/
+xvector_cache_shared/
+
+# Audio / datasets
+*.wav
+*.flac
+data/raw/
+
+# Models
+*.pt
+*.pth
+*.ckpt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Logs / cluster outputs
+*.log
+*.stdout
+*.stderr
+OAR.*
+
+# Temporary files
+.DS_Store
+
+# Generated figures
+results/figures/
+jobs/run_pso_partial_location_L1.oar.sh
